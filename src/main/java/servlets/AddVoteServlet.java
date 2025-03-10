@@ -38,7 +38,7 @@ public class AddVoteServlet extends HttpServlet {
             response.setStatus(HttpServletResponse.SC_OK);
             Student student = new Student(fNumber, name, lastName, speciality ) ;
             storage.addVote(student);
-            out.println("<p>Student is added successfully!</p>");
+            out.println("<p>Student is added successfully!!!</p>");
         }
         out.println("</body>");
         out.println("</html>");

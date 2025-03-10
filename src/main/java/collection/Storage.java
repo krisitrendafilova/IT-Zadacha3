@@ -23,7 +23,7 @@ public class Storage {
     }
 
     public void addVote(Student st) {
-        // Проверяваме дали студент със същия fNumber вече съществува
+        // Проверяваме дали студент със същия fNumber вече съществува.
         for (Student student : students) {
             if (student.getfNumber().equals(st.getfNumber())) {
                 student.setVote(); // Увеличаваме гласа

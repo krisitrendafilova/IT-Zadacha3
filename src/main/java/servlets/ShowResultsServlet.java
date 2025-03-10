@@ -38,7 +38,7 @@ public class ShowResultsServlet extends HttpServlet {
             for (int i = 0; i < student.size(); i++) {
                 Student st = student.get(i);
                 out.println("<hr>");
-                out.println("<p>Fak number: " + st.getfNumber() + "</p>");
+                out.println("<p>Faculty number: " + st.getfNumber() + "</p>");
                 out.println("<p>Name: " + st.getName() + "</p>");
                 out.println("<p>Last name: " + st.getLastName() + "</p>");
                 out.println("<p>Speciality: " + st.getSpeciality() + "</p>");
