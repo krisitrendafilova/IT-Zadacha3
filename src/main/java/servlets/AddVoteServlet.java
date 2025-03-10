@@ -11,6 +11,7 @@ import models.Student;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+//
 @WebServlet("/vote")
 public class AddVoteServlet extends HttpServlet {
     private final Storage storage = Storage.getInstance();
